@@ -1,8 +1,10 @@
 import React from 'react'
 
-const CustomFilter = () => {
+import { CustomFilterProps } from '@/types'
+
+const CustomFilter:React.FC<CustomFilterProps> = ({ title }) => {
   return (
-    <div>CustomFilter</div>
+    <div>{title}</div>
   )
 }
 
